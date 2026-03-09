@@ -10,7 +10,7 @@ export default function OrgSelect() {
   const { t, locale, changeLanguage } = useLocale();
 
   const navigate = useNavigate();
-  const API = "http://localhost:3000/api"; // Hardcoded API
+  const API = process.env.API;
 
   useEffect(() => {
     fetch(`${API}/organisations`)

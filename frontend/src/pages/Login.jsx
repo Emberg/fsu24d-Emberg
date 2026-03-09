@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useLocale } from "../context/LocaleContext";
 
-const API = "http://localhost:3000/api";
+const API = process.env.API;
 
 export default function Login() {
   const [email, setEmail] = useState("");

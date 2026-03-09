@@ -4,7 +4,7 @@ import { useParams, Navigate } from "react-router-dom";
 import Header from "../components/Header.jsx";
 import { useLocale } from "../context/LocaleContext";
 
-const API_BASE = "http://localhost:3000/api";
+const API_BASE = process.env.API;
 
 export default function Admin() {
   const { t } = useLocale();
