@@ -4,7 +4,7 @@ import { useParams, Navigate } from "react-router-dom";
 import Header from "../components/Header.jsx";
 import { useLocale } from "../context/LocaleContext";
 
-const API_BASE = process.env.API;
+const API_BASE = import.meta.env.VITE_API_URL;
 
 export default function Admin() {
   const { t } = useLocale();

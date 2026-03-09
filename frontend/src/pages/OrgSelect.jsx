@@ -10,7 +10,7 @@ export default function OrgSelect() {
   const { t, locale, changeLanguage } = useLocale();
 
   const navigate = useNavigate();
-  const API = process.env.API;
+  const API = import.meta.env.VITE_API_URL;
 
   useEffect(() => {
     fetch(`${API}/organisations`)

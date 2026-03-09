@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useLocale } from "../context/LocaleContext";
 
-const API = process.env.API;
+const API = import.meta.env.VITE_API_URL;
 
 function getTokenData() {
   const token = localStorage.getItem("token");

@@ -10,7 +10,7 @@ import { useLocale } from "../context/LocaleContext";
 import Header from "../components/Header.jsx";
 //import { useMemo } from 'react';
 
-const API = process.env.API;
+const API = import.meta.env.VITE_API_URL;
 const ROOM_COLORS = ["#1E90FF", "#32CD32", "#FF8C00", "#FF1493", "#8A2BE2"];
 
 // Utility to decode JWT safely

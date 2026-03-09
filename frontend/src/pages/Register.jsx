@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useLocale } from "../context/LocaleContext";
 
-const API = process.env.API;
+const API = import.meta.env.VITE_API_URL;
 
 export default function Register() {
   const [email, setEmail] = useState("");

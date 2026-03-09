@@ -7,7 +7,7 @@ import React, {
   } from "react";
   
   const LocaleContext = createContext(null);
-  const API = process.env.API;
+  const API = import.meta.env.VITE_API_URL;
   
   const DEFAULT_LANGUAGE = "sv";
   const CACHE_TTL = 1000 * 60 * 60; // 1 hour
