@@ -1,0 +1,125 @@
+{
+  "app": {
+    "title": "Tajmdit"
+  },
+  "auth": {
+    "logout": "Logout"
+  },
+  "calendar": {
+    "today": "Today",
+    "futureSearch": "Future booking search",
+    "calendarView": "Calendar View",
+    "tableView": "Table View",
+    "addBooking": "+ Booking",
+    "bookingsFor": "Bookings for",
+    "noBookings": "No bookings for this day."
+  },
+  "table": {
+    "time": "Time",
+    "title": "Title",
+    "room": "Room",
+    "holder": "Holder",
+    "unknown": "Unknown"
+  },
+  "errors": {
+    "fetchRooms": "Failed to fetch rooms",
+    "loadRooms": "Failed to load rooms. Please login again.",
+    "fetchBookings": "Failed to fetch bookings",
+    "loadBookings": "Failed to load bookings. Please try again.",
+    "bookingFailed": "Booking failed",
+    "updateFailed": "Update failed",
+    "deleteFailed": "Delete failed"
+  },
+  "bookingModal": {
+    "createBooking": "Create Booking",
+    "title": "Title",
+    "date": "Date",
+    "startTime": "Start time",
+    "endTime": "End time",
+    "repeatBooking": "Repeat booking",
+    "frequency": "Frequency",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "repeatUntil": "Repeat until",
+    "create": "Create",
+    "cancel": "Cancel",
+    "fillAllFields": "Please fill in all required fields",
+    "endAfterStart": "End time must be after start time",
+    "selectRepeatUntil": "Please select a repeat end date"
+  },
+  "editModal": {
+    "editBooking": "Edit Booking",
+    "title": "Title",
+    "holder": "Holder",
+    "date": "Date",
+    "startTime": "Start time",
+    "endTime": "End time",
+    "repeatBooking": "Repeat booking",
+    "frequency": "Frequency",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "repeatUntil": "Repeat until",
+    "update": "Update",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "fillAllRequiredFields": "Please fill all required fields",
+    "endTimeAfterStartTime": "End time must be after start time",
+    "selectRepeatEndDate": "Please select a repeat end date",
+    "confirmDeleteBooking": "Are you sure you want to delete this booking?",
+    "failedToLoadUsers": "Failed to load organisation users"
+  },
+  "orgSelect": {
+    "fetchError": "Failed to fetch organisations",
+    "loadError": "Could not load organisations",
+    "loading": "Loading organisations...",
+    "header": "Tajmdit",
+    "selectOrganisation": "Select Organisation",
+    "chooseOrganisation": "-- Choose an organisation --",
+    "continue": "Continue"
+  },
+  "loginPage": {
+    "header": "Tajmdit",
+    "login": "Login",
+    "email": "Email",
+    "password": "Password",
+    "loginFailed": "Login failed",
+    "goToRegister": "Go to Register"
+  },
+  "registerPage": {
+    "header": "Tajmdit",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "successMessage": "Registered successfully! Please login.",
+    "failureMessage": "Registration failed",
+    "goToLogin": "Go to Login"
+  },
+  "adminPage": {
+    "header": "Admin Panel",
+    "failedLoadingData": "Failed loading data",
+    "loading": "Loading...",
+    "rooms": "Rooms",
+    "name": "Name",
+    "capacity": "Capacity",
+    "actions": "Actions",
+    "addRoom": "Add Room",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirmDeleteRoom": "Delete room?",
+    "apiKeys": "API Keys",
+    "description": "Description",
+    "active": "Active",
+    "inactive": "Inactive",
+    "createdAt": "Created At",
+    "expiresAt": "Expires At",
+    "addKey": "Add Key",
+    "keyValue": "Key Value",
+    "expiryDate": "Expiry Date",
+    "yes": "Yes",
+    "no": "No",
+    "confirmDeleteKey": "Delete key?",
+    "add": "Add"
+  }
+}

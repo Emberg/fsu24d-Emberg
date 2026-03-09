@@ -1,0 +1,125 @@
+{
+  "app": {
+    "title": "Tajmdit"
+  },
+  "auth": {
+    "logout": "Logga ut"
+  },
+  "calendar": {
+    "today": "Idag",
+    "futureSearch": "Framtida bokningssökning",
+    "calendarView": "Kalendervy",
+    "tableView": "Tabellvy",
+    "addBooking": "+ Bokning",
+    "bookingsFor": "Bokningar för",
+    "noBookings": "Inga bokningar denna dag."
+  },
+  "table": {
+    "time": "Tid",
+    "title": "Titel",
+    "room": "Rum",
+    "holder": "Bokad av",
+    "unknown": "Okänt"
+  },
+  "errors": {
+    "fetchRooms": "Kunde inte hämta rum",
+    "loadRooms": "Kunde inte ladda rum. Logga in igen.",
+    "fetchBookings": "Kunde inte hämta bokningar",
+    "loadBookings": "Kunde inte ladda bokningar. Försök igen.",
+    "bookingFailed": "Bokningen misslyckades",
+    "updateFailed": "Uppdatering misslyckades",
+    "deleteFailed": "Borttagning misslyckades"
+  },
+  "bookingModal": {
+    "createBooking": "Skapa bokning",
+    "title": "Titel",
+    "date": "Datum",
+    "startTime": "Starttid",
+    "endTime": "Sluttid",
+    "repeatBooking": "Upprepa bokning",
+    "frequency": "Frekvens",
+    "daily": "Dagligen",
+    "weekly": "Veckovis",
+    "repeatUntil": "Upprepa till",
+    "create": "Skapa",
+    "cancel": "Avbryt",
+    "fillAllFields": "Fyll i alla obligatoriska fält",
+    "endAfterStart": "Sluttiden måste vara efter starttiden",
+    "selectRepeatUntil": "Vänligen välj ett slutdatum för upprepning"
+  },
+  "editModal": {
+    "editBooking": "Redigera bokning",
+    "title": "Titel",
+    "holder": "Ansvarig",
+    "date": "Datum",
+    "startTime": "Starttid",
+    "endTime": "Sluttid",
+    "repeatBooking": "Upprepa bokning",
+    "frequency": "Frekvens",
+    "daily": "Dagligen",
+    "weekly": "Veckovis",
+    "repeatUntil": "Upprepa till",
+    "update": "Uppdatera",
+    "delete": "Ta bort",
+    "cancel": "Avbryt",
+    "fillAllRequiredFields": "Fyll i alla obligatoriska fält",
+    "endTimeAfterStartTime": "Sluttiden måste vara efter starttiden",
+    "selectRepeatEndDate": "Välj ett slutdatum för upprepning",
+    "confirmDeleteBooking": "Är du säker på att du vill ta bort denna bokning?",
+    "failedToLoadUsers": "Kunde inte ladda organisationsanvändare"
+  },
+  "orgSelect": {
+    "fetchError": "Kunde inte hämta organisationer",
+    "loadError": "Kunde inte ladda organisationer",
+    "loading": "Laddar organisationer...",
+    "header": "Tajmdit",
+    "selectOrganisation": "Välj organisation",
+    "chooseOrganisation": "-- Välj en organisation --",
+    "continue": "Fortsätt"
+  },
+  "loginPage": {
+    "header": "Tajmdit",
+    "login": "Logga in",
+    "email": "E-post",
+    "password": "Lösenord",
+    "loginFailed": "Inloggning misslyckades",
+    "goToRegister": "Gå till registrering"
+  },
+  "registerPage": {
+    "header": "Tajmdit",
+    "register": "Registrera",
+    "email": "E-post",
+    "password": "Lösenord",
+    "successMessage": "Registreringen lyckades! Vänligen logga in.",
+    "failureMessage": "Registreringen misslyckades",
+    "goToLogin": "Gå till inloggning"
+  },
+  "adminPage": {
+    "header": "Adminpanel",
+    "failedLoadingData": "Misslyckades med att ladda data",
+    "loading": "Laddar...",
+    "rooms": "Rum",
+    "name": "Namn",
+    "capacity": "Kapacitet",
+    "actions": "Åtgärder",
+    "addRoom": "Skapa rum",
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "edit": "Redigera",
+    "delete": "Radera",
+    "confirmDeleteRoom": "Radera rum?",
+    "apiKeys": "API-nycklar",
+    "description": "Beskrivning",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "createdAt": "Skapad",
+    "expiresAt": "Upphör",
+    "addKey": "Skapa nyckel",
+    "keyValue": "Nyckelvärde",
+    "expiryDate": "Utgångsdatum",
+    "yes": "Ja",
+    "no": "Nej",
+    "confirmDeleteKey": "Radera nyckel?",
+    "add": "Skapa"
+  }
+}
